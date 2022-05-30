@@ -1,0 +1,1 @@
+*.clinic-flame-samples filter=lfs diff=lfs merge=lfs -text
