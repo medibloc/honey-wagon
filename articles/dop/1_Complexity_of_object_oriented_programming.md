@@ -51,3 +51,4 @@ Theo가 근무하는 Albatross는 전 세계에 고객을 보유한 소프트웨
 
 여기까진 여러울게 없었고 이제 어려운 부분이다. 클래스간 관계를 알아내는 일이다. 두 시간이 지나고 아래같은 범지구적 도서 관리 시스템에 대한 디자인 초안을 들고 나타났다.
 
+![Figure 1.1 A class diagram for Klafim’s Global Library Management System](resources/Figure_01-01.png)
