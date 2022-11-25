@@ -10,3 +10,8 @@ OOP의 구문이나 의미가 프로그램을 복잡하게 만드는게 아닙�
 수년간 OOP생태계는 새로운 기능(e.g., anonymous classes, anonymous funcion)을 추가하고 간단한 인터페이스를 제공하는 프레임워크를 개발해 복잡성을 완화시켰습니다. (e.g., Spring ans Jackson in Java)
 프레임워크는 내부적으로 reflection, custom annotation과 같은 고급기능에 의존합니다.
 
+이 장에서 OOP 심층 분석을 하자는건 아니다. 다만 OOP 가 프로그램을 복잡하게 만드는 패러다임이라는 걸 알리고자한다. 이로 인해 복잡도를 줄이는 다른 패러다임에 관심이 간다면 다행이겠다. 이 패러다임을 우리는 데이터지향프로그래밍(DOP)라 한다.
+
+## 1.1 OOP 디자인: Classic or classical?
+- NOTE: 테오, 낸시, 걔네들이 하는 신규 프로젝트를 part 1 도입부에서 소개했다. 안 읽고 왔으면 보고 오시길
+
