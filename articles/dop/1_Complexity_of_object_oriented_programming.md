@@ -88,7 +88,7 @@ Dave의 호기심은 Theo에게 도전적인 질문을 하도록 이끌어주기
 > 
 > 데이브: composition, association 차이가 뭐임
 > 
-> 테오: 다른 녀석이랑 같이 살수 있냐 없냐지. composition은 운명공동체임. association은 각자도생.
+> 테오: 다른 녀석이랑 같이 살아야만 하냐 마냐지. composition은 운명공동체임. association은 각자도생.
 
 
 다이아몬드 화살표 / 다이아몬드 화살표 반대편 스타
