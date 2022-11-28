@@ -97,7 +97,7 @@ Dave의 호기심은 Theo에게 도전적인 질문을 하도록 이끌어주기
 
 ![Figure 1.2 The two kinds of composition: one-to-one and one-to-many. In both cases, when an object dies, the composed object dies with it.](resources/Figure_01-02.png)
 
-> 데이브: aoosication 관계도 있음?
+> 데이브: association 관계도 있음?
 > 
 > 테오: 책이랑 저자. 빈다이아몬드 양쪽으로
 
@@ -105,11 +105,11 @@ Dave의 호기심은 Theo에게 도전적인 질문을 하도록 이끌어주기
 
 > 데이브: 점선은 뭐임
 > 
-> 테오: Method coller/collee 관계
+> 테오: Method caller/callee 관계
 
 ![Figure 1.4 Usage relation: a class uses a method of another class.](resources/Figure_01-04.png)
 
-> 데이브: 실선에 빈 삼각형은 상족인가
+> 데이브: 실선에 빈 삼각형은 상속인가
 > 
 > 테오: ㅇㅇ
 
