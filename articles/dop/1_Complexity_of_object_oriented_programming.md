@@ -115,4 +115,21 @@ Dave의 호기심은 Theo에게 도전적인 질문을 하도록 이끌어주기
 
 ![Figure 1.5 Inheritance relation: a class derives from another class.](resources/Figure_01-05.png)
 
+### 1.1.3 Explaining each piece of the class diagram
+
+> 데이브: UML 알려주셔서 감사합니다. 화살표가 무슨 의미인지 이해했어요.
+> 
+> 테오: 별말씀을ㅎ 전체 구조 보고싶어?
+>
+> 데이브: 어떤 클래스 먼저 봐야할까요?
+>
+> 테오:라이브러리부터 시작해야할 것 같아
+
+![Figure 1.6 The Library class.](resources/Figure_01-06.png) 
+
+코드(동작) 측면에서 Library는 스스로 어떠한 일을 하지 않습니다. 모든 것을 소유객체에 위임합니다.
+데이터 측면에서 Library는 다음을 소유합니다.
+- Multiple Member objects
+- Multiple Librarian objects
+- A single Catalog object
 
