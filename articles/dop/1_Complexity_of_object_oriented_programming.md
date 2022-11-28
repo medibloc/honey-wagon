@@ -125,11 +125,44 @@ Dave의 호기심은 Theo에게 도전적인 질문을 하도록 이끌어주기
 >
 > 테오:라이브러리부터 시작해야할 것 같아
 
+#### 라이브러리 클래스
+
+라이브러리 클래스는 도서 시스템의 최상위 클래스다.
+
 ![Figure 1.6 The Library class.](resources/Figure_01-06.png) 
 
-코드(동작) 측면에서 Library는 스스로 어떠한 일을 하지 않습니다. 모든 것을 소유객체에 위임합니다.
+코드(동작) 측면에서 Library는 스스로 어떠한 일을 하지 않습니다. 모든 동작을 자신이 소유한 객체에 위임합니다.
 데이터 측면에서 Library는 다음을 소유합니다.
 - Multiple Member objects
 - Multiple Librarian objects
 - A single Catalog object
+
+- 노트: 본서에서 코드와 동작은 유사하게 번갈아 사용한다
+
+#### 사서, 멤버, 사용자 클래스
+사서와 멤버는 사용자에서 비롯한다.
+![Figure 1.7 Librarian and Member derive from User.](resources/Figure_01-07.png)
+![Figure 1.8 The Catalog class](resources/Figure_01-08.png)
+![Figure 1.9 The Book class](resources/Figure_01-09.png)
+
+### 1.2.1 Many relations between classes
+
+![Figure 1.10 A class diagram overview for Klafim’s Library Management System](resources/Figure_01-10.png)
+![Figure 1.11 The class Member is involved in five relations.](resources/Figure_01-11.png)
+![Figure 1.12 A class diagram where Member is split into code and data entities](resources/Figure_01-12.png)
+![Figure 1.13 A class diagram where every class is split into code and data entities](resources/Figure_01-13.png)
+
+### 1.2.2 Unpredictable code behavior
+
+
+### 1.2.3 Not trivial data serialization
+
+![Figure 1.14 The class diagram for SearchController](resources/Figure_01-14.png)
+
+### 1.2.4 복잡한 클래스 계위
+
+![Figure 1.15 The part of the class diagram that deals with members and librarians](resources/Figure_01-15.png)
+![Figure 1.16 A class diagram for a system with VIP members](resources/Figure_01-16.png)
+![Figure 1.17 A class diagram for a system with Super and VIP members](resources/Figure_01-17.png)
+
 
