@@ -64,3 +64,55 @@ Theo는 자신이 디자인한 다이어그램에 대한 자부심을 가지고 
 Dave의 호기심은 Theo에게 도전적인 질문을 하도록 이끌어주기 때문에 서로 감사하고 있습니다.
 커피 머신 근처의 회의는 종종 프로그래밍에 대한 흥미로운 토론으로 바뀝니다.
 
+> 테오: 와썹
+> 
+> 데이브: 버그눈물줄줄! 오브젝트 스테이트가 계속 바뀌는 이유를 모르겠네. 알아내겠지뭐. 너는?
+> 
+> 테오: 새고객 시스템 디자인 마침
+> 
+> 데이브: 쩔 함 봐도됨? 디자인 노하우좀 알게
+> 
+> 테오: 자리로가서 다이어그램리뷰 고고
+
+### 1.1.2 UML 101
+
+... 잡소리...
+
+> 데이브: 자세히도 그렸네
+> 
+> 테오: 가슴웅장
+> 
+> 데이브: 화살표 뭔소리더라
+> 
+> 테오: Composition, association, inheritance, usage 4개 화살표 씀
+> 
+> 데이브: composition, association 차이가 뭐임
+> 
+> 테오: 다른 녀석이랑 같이 살수 있냐 없냐지. composition은 운명공동체임. association은 각자도생.
+
+
+다이아몬드 화살표 / 다이아몬드 화살표 반대편 스타
+- Library가 Catalog를 소유 - 1-1composition, library 죽으면 catalog도 죽는다
+- Library가 Member들을 소유 - 1-many composition, library 죽으면 관련 member들 죽는다
+
+![Figure 1.2 The two kinds of composition: one-to-one and one-to-many. In both cases, when an object dies, the composed object dies with it.](resources/Figure_01-02.png)
+
+> 데이브: aoosication 관계도 있음?
+> 
+> 테오: 책이랑 저자. 빈다이아몬드 양쪽으로
+
+![Figure 1.3 Many-to-many association relation: each object lives independently.](resources/Figure_01-03.png)
+
+> 데이브: 점선은 뭐임
+> 
+> 테오: Method coller/collee 관계
+
+![Figure 1.4 Usage relation: a class uses a method of another class.](resources/Figure_01-04.png)
+
+> 데이브: 실선에 빈 삼각형은 상족인가
+> 
+> 테오: ㅇㅇ
+
+![Figure 1.5 Inheritance relation: a class derives from another class.](resources/Figure_01-05.png)
+
+
