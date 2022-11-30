@@ -145,6 +145,23 @@ Dave의 호기심은 Theo에게 도전적인 질문을 하도록 이끌어주기
 ![Figure 1.8 The Catalog class](resources/Figure_01-08.png)
 ![Figure 1.9 The Book class](resources/Figure_01-09.png)
 
+### 1.1.4 The implementation phase
+
+다이어그램 리뷰 뒤에 Dave는 커피를 한 모금 마십니다. 그는 Theo에게 감동받았습니다.
+> 데이브: 가슴이 웅장해진다...!
+> 
+> 테오: 감사합니다ㅎ
+>
+> 테오: 저는 사람들이 코딩하기 전에 이렇게 디자인에 시간을 할애하고 있는지 깨닫지 못했었습니다.
+>
+> 데이브: 저는 항상 디자인을 먼저 해요. 그러면 코딩할 때 시간을 많이 절약할 수 있더라구요.
+> 
+> 테오: 그래서 코딩 언제할거에요?ㅎ
+>
+> 데이브: 라떼 먹고 하겠습니다
+
+테오는 따뜻한 라떼가 아이스 라떼가 된 사실을 알았습니다. 다이어그램을 데이브에게 설명하는게 너무 신나서 커피마시는 걸 잊었습니다.
+
 ### 1.2.1 Many relations between classes
 
 ![Figure 1.10 A class diagram overview for Klafim’s Library Management System](resources/Figure_01-10.png)
