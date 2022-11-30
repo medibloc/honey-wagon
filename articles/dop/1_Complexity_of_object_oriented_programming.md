@@ -142,6 +142,31 @@ Dave의 호기심은 Theo에게 도전적인 질문을 하도록 이끌어주기
 #### 사서, 멤버, 사용자 클래스
 사서와 멤버는 사용자에서 비롯한다.
 ![Figure 1.7 Librarian and Member derive from User.](resources/Figure_01-07.png)
+사용자 클래스는 도서관 사용자를 의미
+- 데이터 멤버는 가능한 적게 들고 있도록 한다: id, email, password
+- 코드는 로그인하기위한 login있다.
+멤버 클래스는 도서관 멤버를 의미
+- 사용자 클래스 상속
+- 데이터 멤버는 사용자 클래스와 동일
+- 코드는
+  - checkout으로 책대여
+  - returnBook으로 반납
+  - block으로 스스로를 차단
+  - unblock으로 스스로를 차단해제
+  - isBlocked로 차단유무를 대답
+- 여러 BookLending 오브젝트를 소유
+- checkout 구현에 BookItem 사용
+사서 클래스는 사서를 의미
+- 사용자 클래스 상속
+- 데이터 멤버는 사용자 클래스와 동일
+- 코드는
+  - 멤버를 block, unblock 할 수 있고
+  - getBookLendings로 멤버의 대여 내역 조회
+  - addBookItem으로 도서관에 북아이템 추가
+- blockMember, unblockMember, getBookLending 구현에 Member 씀
+- checkout 구현에 BookItem 씀
+- getBookLendings에 BookLending 씀
+
 ![Figure 1.8 The Catalog class](resources/Figure_01-08.png)
 ![Figure 1.9 The Book class](resources/Figure_01-09.png)
 
